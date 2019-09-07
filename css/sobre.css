@@ -45,7 +45,7 @@ main {
     overflow: hidden;
 }
 .imagem-fundo {
-    background-image: url(/img/imagem_sobre.jpg);
+    background-image: url(/img/sobre/imagem_sobre.jpg);
     width: 100%;  
     height: 400px;    
 }
@@ -64,22 +64,35 @@ filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#00aa9b', end
 .texto {
     text-align: center;    
     width: 900px;
-    height: 300px; 
-    font-size: 25px;  
-    padding: 30px;   
-    position:relative;
-    top:20%;
-    left:20%;     
+    height: 200px; 
+    font-size: 18px;     
+    left: 5%; 
+    position: relative;     
+}
+.texto-imagem {
+    text-align: center;
+    font-size: 17px;  
+    width: 990px;  
+    height: 400px;     
 }
 
-.rodape {
-    color: #c1c1c1;
-    background-color: #252323;
-    height: 60px;
-    width: 100%;      
+.col3 {
+    padding-left: 27px;
+    padding-right: 25px;
+    width: 28%;   
+    float: left;
+    position: relative;   
+    border-radius:10px;
+    box-shadow: 3px 3px 3px 3px #8b8b8b;   
 }
-.direitos-reservados {
-    padding: 20px;
-    width: 60%;
-    float: right;    
+
+.direitos-reservados {    
+    background-color: #252323;
+    height: 50px;
+    width: 100%;
+    float: right;        
+}
+.direitos-reservados p {   
+    text-align: center;
+    color: azure;
 }
