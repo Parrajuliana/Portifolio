@@ -1,19 +1,25 @@
-body, html {
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box
+}
+html {
+    overflow-x: hidden
+}
+body {
+    margin: 0;
+    padding: 0;
     font-family: 'Open Sans', sans-serif;
-    
-    width: 100%;
-    height: 100%;
-    margin: 0 auto;   
-    }
-.menu-principal {
-    background-color: #252323;
-    height: 68px;
-    width: 100%;        
-   }
+    background-color: #ffffff
+}
 main {
     margin: 0 auto;
     width: 980px;    
     position: relative;
+}
+.menu-principal {
+    background-color: #252323;
+    height: 68px       
 }
 .logo {
     float: left;
@@ -27,7 +33,7 @@ main {
     list-style: none;
 }
 .links{
-    padding: 10px;
+    padding: 25px;
     width: 65%;
     float: left;
 }
@@ -45,54 +51,54 @@ main {
     overflow: hidden;
 }
 .imagem-fundo {
-    background-image: url(/img/sobre/imagem_sobre.jpg);
-    width: 100%;  
-    height: 400px;    
+    background-image: url(../img/sobre/imagem_sobre.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+    min-height: 350px
 }
-.container {    
-   /* Permalink - use to edit and share this gradient: https://colorzilla.com/gradient-editor/#00aa9b+8,2989d8+45,207cca+52,00ba3a+100 */
-background: #00aa9b; /* Old browsers */
-background: -moz-linear-gradient(-45deg, #00aa9b 8%, #2989d8 45%, #207cca 52%, #00ba3a 100%); /* FF3.6-15 */
-background: -webkit-linear-gradient(-45deg, #00aa9b 8%,#2989d8 45%,#207cca 52%,#00ba3a 100%); /* Chrome10-25,Safari5.1-6 */
-background: linear-gradient(135deg, #00aa9b 8%,#2989d8 45%,#207cca 52%,#00ba3a 100%); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
-filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#00aa9b', endColorstr='#00ba3a',GradientType=1 ); /* IE6-9 fallback on horizontal gradient */
-    display: block;
+.container {
+    background: #00aa9b;
+    background: linear-gradient(135deg, #00aa9b 8%,#2989d8 45%,#207cca 52%,#00ba3a 100%);
     width: 100%;  
-    height: 30px;
+    height: 30px
+}
+.imagem-miolo {
+    text-align: center
 }
 
 .texto {
     text-align: center;    
     width: 900px;
-    height: 200px; 
-    font-size: 18px;     
+    height: 250px; 
+    font-size: 18px;
+    top: 30px;     
     left: 5%; 
-    position: relative;     
+    position: relative;             
 }
 .texto-imagem {
     text-align: center;
     font-size: 17px;  
-    width: 990px;  
-    height: 400px;     
+    width: 120%;  
+    height: 420px; 
 }
 
-.col3 {
-    padding-left: 27px;
-    padding-right: 25px;
+.col {
+    padding: 20px;    
     width: 28%;   
     float: left;
     position: relative;   
-    border-radius:10px;
-    box-shadow: 3px 3px 3px 3px #8b8b8b;   
+    border:solid 1px;
+    border-radius:10px;     
 }
 
-.direitos-reservados {    
+.rodape {
+    color: #c1c1c1;
     background-color: #252323;
-    height: 50px;
-    width: 100%;
-    float: right;        
+    height: 60px;  
 }
-.direitos-reservados p {   
-    text-align: center;
-    color: azure;
+.direitos-reservados {
+    padding: 20px;
+    float: right;
+    width: 66%;
 }
