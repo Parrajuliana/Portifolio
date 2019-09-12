@@ -33,9 +33,9 @@ main {
     list-style: none;
 }
 .links{
-    padding: 25px;
-    width: 65%;
-    float: left;
+    padding: 20px;
+    width: 60%;
+    float: left;    
 }
 .menu ul li a {
     padding: 10px;
@@ -63,33 +63,54 @@ main {
     width: 100%;  
     height: 30px
 }
-.imagem-miolo {
-    text-align: center
-}
 
-.texto {
-    text-align: center;    
-    width: 900px;
-    height: 250px; 
-    font-size: 18px;
-    top: 30px;     
+.texto {   
+    text-align: left;    
+    width: 90%;
+    height: 350px; 
+    font-size: 16px;       
     left: 5%; 
-    position: relative;             
-}
-.texto-imagem {
-    text-align: center;
-    font-size: 17px;  
-    width: 120%;  
-    height: 420px; 
+    position: relative; 
+    font-family: "Open Sans", sans-serif;   
+    line-height: 1.5;                 
 }
 
-.col {
-    padding: 20px;    
-    width: 28%;   
+.imagemProjeto {         
+    float: left;   
+    border-radius: 5px;
+    border:2px solid rgb(0, 0, 0);
+    box-shadow: 10px 10px 15px 5px rgba(0, 0, 0, 0.39);    
+}
+
+.conteudo {
+    padding: 100px;
+    display: table;   
+    margin: 1px 5px 5px 300px; 
+}
+
+.texto ul li {
+    text-align: left;
+    width: 27.3%;
+    height: 10%;
+    margin: 0.5%;
     float: left;
-    position: relative;   
-    border:solid 1px;
-    border-radius:10px;     
+    overflow: hidden;
+  }
+  
+  .texto ul li:nth-child(odd) {
+    float:left;
+  }
+
+.botao {
+    font-weight: bold; 
+    margin-left: 55%;
+}
+.bt {         
+    text-decoration:none;   
+    font-size: 15px;
+    color: #8b8b8b;
+    padding: 10px 20px; 
+    border: 2px solid;    
 }
 
 .rodape {
